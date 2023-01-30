@@ -9,7 +9,7 @@ public class Main {
         task7();
     }
     public static void task1 () {
-    int age = 17;
+    int age = 17; System.out.println("Домашняя работа №4");
         System.out.println("Задача 1");
         System.out.println("Если возраст человека равен " + age + ", то ");
     if (age >= 18 ) {System.out.println("он совершеннолетний");}
