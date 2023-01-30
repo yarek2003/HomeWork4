@@ -68,17 +68,17 @@ public class Main {
         }
     }
     public static void task7 () {
-        int one = 110;
+        int one = 70;
         int two = 60;
-        int three = 158;
+        int three = 11;
         int max = two;
         System.out.println();
         System.out.println("Задача 7");
-        System.out.println("Большим среди чисел" + one + ", " + two + ", " + three +" является: ");
+        System.out.println("Большим среди чисел " + one + ", " + two + ", " + three +" является: ");
         if (one > two ) {
             max = one;
-            if (one < three) {max = three;}
-        else {if (two < three) {max = three;}}
+            if (one < three) {max = three;}}
+        else {if (two < three) {max = three;}
         }
         System.out.println(max);
     }
